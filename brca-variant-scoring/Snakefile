@@ -1,0 +1,35 @@
+# Snakefile — full updated version
+
+configfile: "config.yaml"
+
+rule all:
+    input:
+        "results/ranked_variants.csv",
+        "results/plots"          # ← add this line
+
+rule score_variants:
+    input:  "data/brca_variants.vcf"
+    output: "results/raw_scores.csv"
+    script: "scripts/score_variants.py"
+
+rule compute_splicing:
+    input:  "data/brca_variants.vcf"
+    output: "results/splicing_scores.csv"
+    script: "scripts/compute_splicing.py"
+
+rule rank_and_report:
+    input:
+        "results/raw_scores.csv",
+        "results/splicing_scores.csv"
+    output: "results/ranked_variants.csv"
+    script: "scripts/rank_and_report.py"
+
+# ── Rule 4: Visualize results ─────────────────────────────────────────────
+rule visualize:
+    input:
+        "results/ranked_variants.csv",
+        "data/brca_variants.vcf"
+    output:
+        directory("results/plots")
+    script:
+        "scripts/visualize.py"
