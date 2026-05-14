@@ -167,7 +167,7 @@ pip install snakemake alphagenome pandas matplotlib numpy
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/BRCA Regulatory Variant Scoring Pipeline/brca-variant-scoring.git
+git clone https://github.com/BRCA-Regulatory-Variant-Scoring-Pipeline/brca-variant-scoring.git
 cd brca-variant-scoring
 ```
 
