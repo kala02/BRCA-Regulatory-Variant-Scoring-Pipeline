@@ -1,0 +1,21 @@
+rank,variant_id,gene,significance,top_output_type,top_tissue,top_quantile_score,top_raw_score,alphagenome_splicing,splicing_risk,overall_impact
+1,chr13:32394749:G>A,BRCA2,Pathogenic,RNA_SEQ,SJCRH30,0.99998,0.16118574,0.17705078,LOW,HIGH
+2,chr17:43076605:G>A,BRCA1,Uncertain significance,RNA_SEQ,Peyer's patch,0.99998,0.26394367,1.5724609,HIGH,HIGH
+3,chr17:43092314:C>T,BRCA1,Conflicting classifications of pathogenicity,RNA_SEQ,HUES64,0.9993018,0.023408175,0.032318115,LOW,HIGH
+4,chr17:43104949:G>A,BRCA1,Pathogenic,RNA_SEQ,mesodermal cell,0.9991982,0.019617558,0.7980469,MODERATE,HIGH
+5,chr17:43051110:C>G,BRCA1,Conflicting classifications of pathogenicity,RNA_SEQ,nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa,0.9991795,0.016506433,0.14550194,LOW,HIGH
+6,chr17:43093647:A>C,BRCA1,Conflicting classifications of pathogenicity,RNA_SEQ,motor neuron,0.9991002,0.012897968,0.026989747,LOW,HIGH
+7,chr17:43092865:G>C,BRCA1,Uncertain significance,RNA_SEQ,HUES64,0.99901325,0.018496752,0.019595336,LOW,HIGH
+8,chr17:43071124:G>A,BRCA1,Uncertain significance,RNA_SEQ,ectodermal cell,0.9989667,0.014451504,0.024291992,LOW,HIGH
+9,chr17:43094763:C>G,BRCA1,Conflicting classifications of pathogenicity,RNA_SEQ,mononuclear cell,0.99843514,0.012267828,0.12358399,LOW,HIGH
+10,chr17:43104174:T>A,BRCA1,Uncertain significance,RNA_SEQ,right lobe of liver,0.9983613,0.017438412,0.028619384,LOW,HIGH
+11,chr17:43094561:T>C,BRCA1,Conflicting classifications of pathogenicity,CHIP_HISTONE,mesenchymal stem cell,0.998284,0.13223457,0.42023316,LOW,HIGH
+12,chr13:32319118:T>G,BRCA2,Uncertain significance,RNA_SEQ,GM12878,0.99773717,0.011413336,0.0432251,LOW,HIGH
+13,chr13:32379431:C>A,BRCA2,Uncertain significance,RNA_SEQ,renal pelvis,0.9964944,0.00931859,0.041430663,LOW,HIGH
+14,chr13:32398387:C>G,BRCA2,Uncertain significance,RNA_SEQ,Calu3,0.9963292,0.009040356,0.029644776,LOW,HIGH
+15,chr13:32339627:A>G,BRCA2,Conflicting classifications of pathogenicity,RNA_SEQ,endothelial cell,0.9957853,0.0081532,0.027130127,LOW,HIGH
+16,chr13:32340260:G>A,BRCA2,Conflicting classifications of pathogenicity,RNA_SEQ,skeletal muscle myoblast,0.99516106,0.00870657,0.023071289,LOW,HIGH
+17,chr13:32339735:G>A,BRCA2,Conflicting classifications of pathogenicity,RNA_SEQ,myometrial cell,0.9950484,0.0074164867,0.023077393,LOW,HIGH
+18,chr13:32338388:G>A,BRCA2,Conflicting classifications of pathogenicity,RNA_SEQ,heart left ventricle,0.9936224,0.008136272,0.023083497,LOW,HIGH
+19,chr13:32357935:C>T,BRCA2,Conflicting classifications of pathogenicity,RNA_SEQ,right renal cortex interstitium,0.9907879,0.007060766,0.031262208,LOW,HIGH
+20,chr13:32337458:G>T,BRCA2,Pathogenic,RNA_SEQ,gastrocnemius medialis,0.986702,0.005902767,0.023806762,LOW,HIGH
